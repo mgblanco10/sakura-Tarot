@@ -9,10 +9,14 @@ import Card from '../../components/Card/Card'
 function Game() {
   return (
     <div className='game'>
-      <Logo />
-      <StarFavorites />
+      <div className='headerGame'>
+        <Logo />
+        <StarFavorites />
+      </div>
       <Card />
+      <div className='buttonGame'>
         <Button route={'/result'} text={"RESULTADO"} />
+        </div>
     </div>
   )
 }

@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-image: url('../../assets/bg-home.png');
 }
-.header{
+.headerHome{
     display: flex;
     justify-content: space-between;  
 }

@@ -78,23 +78,14 @@
   text-align: center;
 }
 
-@media only screen and (min-width: 393px) and (max-width: 852px) {
-
-  .card-reverse-container {
-    margin-top: 19.5vh;
-    margin-left: 39vw;
-    
+@media (min-width: 620px){
+  .card-reverse-container{
+    margin-left: 300px;
+    width: 100px;
+    height: 230px;
   }
-  .text-card-reverse {
-    font-size: 26px;
-    width: 400px;
-    left: -11.5vw;
-    
+  .card-reverse-img-top {
+    width: 78px;
+    height: 172px;
   }
-  .card-circle-reverse {
-    position: absolute;
-    left: 42vw;
-    top: 27vh;
-    
-  }
-  }
+ }
