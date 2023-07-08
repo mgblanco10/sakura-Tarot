@@ -1,0 +1,15 @@
+.button{
+    width: 197px;
+    height: 71px;
+    background-color: var(--blue-btn);
+    border: 2px solid var(--blue-border-btn);
+    border-radius: 30px;
+    display: flex;
+    margin-top: 300px;
+}
+.textButton {
+    color: var(--blue-text-btn);
+    text-align: center;
+    text-decoration: none;
+
+}

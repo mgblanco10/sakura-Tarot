@@ -1,8 +1,19 @@
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;800&family=Poppins:ital,wght@0,400;0,600;0,700;1,200&display=swap');
+
+* {
+  margin: auto;
+  padding: auto;
+  font-family: "Cinzel", sans;
+}
+
+:root{
+  --blue-btn: #2A5A87;
+  --blue-border-btn:#F988BE;
+  --blue-text-btn: #ffff;
+  --box-shadow-cards: #686868;
+  --black: #000000;
+  --modal-feedback: #8DA9ED;
+  --modal-feedback-border: #F988BE;
+  
 }
 

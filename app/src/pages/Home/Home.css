@@ -1,0 +1,15 @@
+.home {
+    /* width: 100vh; */
+    height: 100vh;
+    
+    background-position: center 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/bg-home.png');
+
+}
+@media (min-width: 620px){
+    .home {
+        background-image: url('../../assets/bg-home-desktop.png');   
+}
+}
