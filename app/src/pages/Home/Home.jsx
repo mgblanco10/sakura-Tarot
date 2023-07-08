@@ -9,10 +9,14 @@ import InformationHome from '../../components/InformationHome/InformationHome'
 function Home() {
   return (
     <div className='home'>
-      <Logo />
-      <StarFavorites />
+      <div className='header'>
+        <Logo />
+        <StarFavorites />
+      </div>
       <InformationHome />
-      <Button route={"/game"} text = {"CONSULTAR CARTAS CLOW"} />
+      <div className="butonHome" >
+      <Button route={"/game"} text = {"CONSULTAR CARTAS CLOW"}/>
+      </div>
     </div>
   )
 }

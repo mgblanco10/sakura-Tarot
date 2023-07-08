@@ -2,3 +2,9 @@
     width: 100px;
     height: 100px;
 }
+@media (min-width: 620px){
+    .logo-img {
+        width: 175px;
+        height: 175px;
+    }
+   }

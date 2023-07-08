@@ -1,13 +1,19 @@
 .home {
-    /* width: 100vh; */
     height: 100vh;
-    
     background-position: center 20%;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../../assets/bg-home.png');
-
 }
+.header{
+    display: flex;
+    justify-content: space-between;  
+}
+.butonHome{
+    display: flex;
+    justify-content: center;
+}
+
 @media (min-width: 620px){
     .home {
         background-image: url('../../assets/bg-home-desktop.png');   

@@ -8,3 +8,8 @@
     font-family: Cinzel;
     line-height: 1.8;
 }
+@media (min-width: 620px){
+ .informationHome{
+    font-size: 28px;
+ }
+}
