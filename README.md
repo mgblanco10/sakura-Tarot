@@ -22,7 +22,7 @@ Inicia la aplicación ejecutando el siguiente comando:
 
 Para poder guardar y almacenar las lecturas se utiliza JSON Server. Para iniciar el servidor JSON, abre otra terminal en el directorio del proyecto y ejecuta el siguiente comando:
 
-`npm run dev`
+`npm run server`
 
 Esto iniciará el servidor JSON en http://localhost:3000.
 
@@ -54,6 +54,30 @@ Recuerda que es necesario tener Node.js y npm instalados en tu máquina para pod
 <img src="https://w7.pngwing.com/pngs/115/721/png-transparent-trello-social-icons-icon.png" alt="trello" width="50" heigth="50"/>
  <img src="https://1000marcas.net/wp-content/uploads/2020/01/logo-Canva.png" alt="Canca" width="60" heigth="60"/>
 </div>
+
+## Pruebas con docker (Comandos)
+docker build -t json-server . 
+docker run -it json-server
+
+## Adicional 
+- Ver que imagen está corriendo
+docker ps 
+- Matar una imagen que tenga corriendo
+docker kill <container_id>
+
+## Information instalacion
+https://www.makeuseof.com/how-to-install-docker-mac/
+https://www.cprime.com/resources/blog/docker-for-mac-with-homebrew-a-step-by-step-tutorial/
+
+https://hub.docker.com/_/node/
+
+https://dev.to/codemaker2015/build-and-deploy-flask-rest-api-on-docker-25mf
+https://bpostance.github.io/posts/docker-fask-api/
+
+https://docs.docker.com/engine/reference/builder/
+https://docs.docker.com/engine/reference/run/
+
+https://github.com/nuwe-reports/femhack-II-frontend-challenge/tree/main
 
 
 

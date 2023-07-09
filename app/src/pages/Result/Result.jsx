@@ -40,7 +40,7 @@ function Result() {
       <div className='buttonResult'>
       <Button
         route={'/favorites'}
-        text={'RESULTADO'}
+        text={'GUARDAR MI TIRADA'}
         onClick={saveCardGroup}
       />
       </div>

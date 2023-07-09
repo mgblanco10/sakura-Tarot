@@ -15,7 +15,7 @@ function Game() {
       </div>
       <Card />
       <div className='buttonGame'>
-        <Button route={'/result'} text={"RESULTADO"} />
+        <Button route={'/result'} text={"DESCUBRE MI TIRADA"} />
         </div>
     </div>
   )

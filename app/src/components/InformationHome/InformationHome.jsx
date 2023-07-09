@@ -11,7 +11,7 @@ function InformationHome() {
         <p className='homeInformation'>Carta N° 1: Pasado.</p>
         <p className='homeInformation'> Carta N° 2: Presente.</p>
         <p className='homeInformation'>Carta N° 3:  Futuro.</p>
-      <h2 className='subtitleHome'>¡Realiza tu tirada!</h2>
+      <h3 className='subtitleHome'>¡Realiza tu tirada!</h3>
     </div>
 </>
   )

@@ -126,6 +126,70 @@
         }
       ],
       "date": 1688882966674
+    },
+    {
+      "id": "group_1688889342880",
+      "cards": [
+        {
+          "id": "3",
+          "cardNumber": 3,
+          "spanishName": "Sombra",
+          "englishName": "The Shadow",
+          "kanji": "影",
+          "Rōmaji": "Kage",
+          "appeardManga": "10",
+          "appeardAnime": "2",
+          "clowCard": "https://i.ibb.co/9W42mHB/Sombra.jpg",
+          "sakuraCard": "https://i.ibb.co/q7dgnKZ/Sombra-Sakura.jpg",
+          "cardsReverse": {
+            "clowReverse": "https://i.ibb.co/LJSmQ4f/Reverso-Clow.jpg",
+            "sakuraReverse": "https://i.ibb.co/XxrvMJ2/Reverso-Sakura.jpg"
+          },
+          "meaning": "Indica el sigilo.",
+          "__v": 0,
+          "isFlipped": true
+        },
+        {
+          "id": "42",
+          "cardNumber": 42,
+          "spanishName": "Atravesar",
+          "englishName": "The Through",
+          "kanji": "抜",
+          "Rōmaji": "Batsu",
+          "appeardManga": "",
+          "appeardAnime": "35/36",
+          "clowCard": "https://i.ibb.co/8jk5q45/Atravesar.jpg",
+          "sakuraCard": "https://i.ibb.co/KLPP4CK/Atravesar-Sakura.jpg",
+          "meaning": "Simboliza el camino, el cambio.",
+          "__v": 0,
+          "cardsReverse": {
+            "clowReverse": "https://i.ibb.co/LJSmQ4f/Reverso-Clow.jpg",
+            "sakuraReverse": "https://i.ibb.co/XxrvMJ2/Reverso-Sakura.jpg"
+          },
+          "isFlipped": true
+        },
+        {
+          "id": "46",
+          "cardNumber": 46,
+          "spanishName": "Nube",
+          "englishName": "The Cloud",
+          "kanji": "雲",
+          "Rōmaji": "Kumo",
+          "appeardManga": "",
+          "appeardAnime": "39",
+          "clowCard": "https://i.ibb.co/YydjPX0/Nube.jpg",
+          "sakuraCard": "https://i.ibb.co/wh7w3kG/Nube-Sakura.jpg",
+          "meaning": "Esta carta simboliza incertidumbre.",
+          "__v": 0,
+          "cardsReverse": {
+            "clowReverse": "https://i.ibb.co/LJSmQ4f/Reverso-Clow.jpg",
+            "sakuraReverse": "https://i.ibb.co/XxrvMJ2/Reverso-Sakura.jpg"
+          },
+          "isFlipped": true
+        }
+      ],
+      "date": 1688889345509,
+      "message": "Prueba con GENARO"
     }
   ]
 }
