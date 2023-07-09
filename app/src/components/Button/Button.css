@@ -3,7 +3,7 @@
     width: 197px;
     height: 71px;
     background-color: var(--blue-btn);
-    border: 2px solid var(--blue-border-btn);
+    border: 2px solid var(--pink-border-btn);
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@
   }
   
   .textButton {
-    color: var(--blue-text-btn);
+    color: var(--white-text-btn);
     text-align: center;
     text-decoration: none;
   }
