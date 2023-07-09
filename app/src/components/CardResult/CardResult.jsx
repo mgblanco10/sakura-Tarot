@@ -5,11 +5,13 @@
 // import Message from '../Message/Message';
 // import './CardResult.css';
 
+
 // function CardResult() {
 //   const [cardData, setCardData] = useState([]);
 //   const [cardGroupId, setCardGroupId] = useState('');
 //   const [cardGroups, setCardGroups] = useState([]);
 //   const [groupCount, setGroupCount] = useState(0);
+//   const [message, setMessage] = useState('');
 
 //   useEffect(() => {
 //     getAllCards().then((data) => {
@@ -42,7 +44,8 @@
 //       .then((response) => {
 //         console.log('Grupo de cartas guardado:', response.data);
 //         setCardGroups((prevCardGroups) => [...prevCardGroups, response.data]);
-//         setCardGroupId(response.data.id); // Actualizar el cardGroupId con el ID generado en la respuesta
+//         setCardGroupId(response.data.id); 
+//         setMessage(''); 
 //       })
 //       .catch((error) => {
 //         console.error('Error al guardar el grupo de cartas:', error);
@@ -62,6 +65,7 @@
 //         .put(`http://localhost:3000/cardGroups/${cardGroupId}`, updatedCardGroup)
 //         .then((response) => {
 //           console.log('Mensaje guardado en el grupo de cartas:', response.data);
+//           setMessage('');
 //         })
 //         .catch((error) => {
 //           console.error('Error al guardar el mensaje en el grupo de cartas:', error);
@@ -89,12 +93,13 @@
 //         const cardGroup = {
 //           id: cardGroupId,
 //           cards: updatedCardData,
-//           date: currentDate.getTime() // Obtener la marca de tiempo en milisegundos
+//           date: currentDate.getTime() 
 //         };
 //         saveCardGroup(cardGroup);
 //       }
 //     }
 //   }
+//   const position = ["PRESENTE", "PASADO", "FUTURO"]
 
 //   return (
 //     <div className="container-result">
@@ -114,6 +119,7 @@
 //           <div className={`card-body ${!card.isFlipped ? '' : 'hidden'}`}>
 //             {card.isFlipped && (
 //               <>
+//               <h2 className="position">{position}</h2>
 //                 <h5 className="card-title">{card.spanishName}</h5>
 //                 <p className="card-text">{card.meaning}</p>
 //               </>
@@ -177,8 +183,8 @@ function CardResult() {
       .then((response) => {
         console.log('Grupo de cartas guardado:', response.data);
         setCardGroups((prevCardGroups) => [...prevCardGroups, response.data]);
-        setCardGroupId(response.data.id); // Actualizar el cardGroupId con el ID generado en la respuesta
-        setMessage(''); // Limpiar el campo de mensaje después de guardar
+        setCardGroupId(response.data.id); 
+        setMessage(''); 
       })
       .catch((error) => {
         console.error('Error al guardar el grupo de cartas:', error);
@@ -198,7 +204,7 @@ function CardResult() {
         .put(`http://localhost:3000/cardGroups/${cardGroupId}`, updatedCardGroup)
         .then((response) => {
           console.log('Mensaje guardado en el grupo de cartas:', response.data);
-          setMessage(''); // Limpiar el campo de mensaje después de guardar
+          setMessage('');
         })
         .catch((error) => {
           console.error('Error al guardar el mensaje en el grupo de cartas:', error);
@@ -226,16 +232,18 @@ function CardResult() {
         const cardGroup = {
           id: cardGroupId,
           cards: updatedCardData,
-          date: currentDate.getTime() // Obtener la marca de tiempo en milisegundos
+          date: currentDate.getTime() 
         };
         saveCardGroup(cardGroup);
       }
     }
   }
 
+  const positions = ["PRESENTE", "PASADO", "FUTURO"];
+
   return (
     <div className="container-result">
-      {cardData.map((card) => (
+      {cardData.map((card, index) => (
         <div
           className={`card ${card.isFlipped ? 'flipped' : ''}`}
           key={card.id}
@@ -251,6 +259,7 @@ function CardResult() {
           <div className={`card-body ${!card.isFlipped ? '' : 'hidden'}`}>
             {card.isFlipped && (
               <>
+                <h2 className="position">{positions[index]}</h2>
                 <h5 className="card-title">{card.spanishName}</h5>
                 <p className="card-text">{card.meaning}</p>
               </>

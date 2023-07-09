@@ -1,33 +1,10 @@
-// import React from 'react'
-// import './Result.css'
-// import Button from '../../components/Button/Button'
-// import Logo from '../../components/Logo/Logo'
-// import StarFavorites from '../../components/StarFavorites/StarFavorites'
-// import CardResult from '../../components/CardResult/CardResult'
-// import Message from '../../components/Message/Message'
-
-// function Result() {
-//   return (
-//     <div className='result'>
-//     <Logo />
-//     <StarFavorites />
-//     <CardResult />
-//     <Message />
-//     <Button route={"/favorites"} text={"RESULTADO"} />
-//     </div>
-//   )
-// }
-
-// export default Result
-
-
 import React, { useState } from 'react';
 import axios from 'axios';
 import Button from '../../components/Button/Button';
 import Logo from '../../components/Logo/Logo';
 import StarFavorites from '../../components/StarFavorites/StarFavorites';
 import CardResult from '../../components/CardResult/CardResult';
-import Message from '../../components/Message/Message';
+import './Result.css'
 
 function Result() {
   const [cardData, setCardData] = useState([]);
@@ -52,17 +29,21 @@ function Result() {
 
   return (
     <div className='result'>
-      <Logo />
-      <StarFavorites />
+      <div className='headerResult'>
+        <Logo />
+        <StarFavorites />
+      </div>
       <CardResult
         cardData={cardData}
         setCardData={setCardData}
       />
+      <div className='buttonResult'>
       <Button
         route={'/favorites'}
         text={'RESULTADO'}
         onClick={saveCardGroup}
       />
+      </div>
     </div>
   );
 }

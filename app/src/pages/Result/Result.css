@@ -1,8 +1,21 @@
 .result {
-    height: 897px;
+    height: 100vh;
     background-position: center;
-    background-size: cover;
+    background-size: cover; 
     background-repeat: no-repeat;
-    background-image: url('../../assets/bg-pages.svg');
-    overflow: hidden;
+    background-image: url('../../assets/bg-pages.svg'); 
 }
+.headerResult{
+    display: flex;
+    justify-content: space-between;
+}
+.buttonResult{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 240px;
+}
+
+@media (min-width: 620px){
+  
+   }

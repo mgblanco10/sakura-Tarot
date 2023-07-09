@@ -1,40 +1,50 @@
 .container-result{
     display: flex;
-    margin-top: 40px;
-    width: 380px;
-    overflow-x: hidden;
+    justify-content: center;
 }
 .card-img-top{
-    width: 77px;
-    height: 173px;
+    width: 73px;
+    height: 170px;
+    padding-right: 50px;
 }
-.card-front{
-    display: flex;
-}
+
 .card-body {
-    position:absolute;
-    margin-top: 10px;
     width: 80px;
     font-family: 'Cinzel';
     font-size: 16px;
     font-weight: bold;
 }
 .card-text{
-    margin-top: 15px;
+    margin-top: 5px;
     line-height: 1;
     width: 90px;
     height: 120px;
-    font-size: 14px;
-    
+    font-size: 14px;   
 }
-.card-position{
-    margin-bottom: 10px;
-    margin-left: 5px;
+.position{
     font-size: 16px;
 }
 .card-title {
     font-weight: bolder;
     font-size: 18px;
+}
+
+@media (min-width: 620px){
+    .card-img-top{
+        width: 135px;
+        height: 280px;
+        padding-right: 50px;
+    }
+    .card-text{
+        font-size: 20px;
+        font-weight: 400;   
+    }
+    .position{
+        font-size: 20px;
+    }
+    .card-title {
+        font-size: 22px;
+    }
 }
 
 
