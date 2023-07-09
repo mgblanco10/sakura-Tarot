@@ -34,6 +34,28 @@ Recuerda que es necesario tener Node.js y npm instalados en tu máquina para pod
 ### Figma version desktop
 ![Enlace al diseño Versión Desktop en Figmfig](app/src/assets/figmaDesktop.png)
 
+## :hammer:Tecnologias y Herramientas
+
+<div align=""> 
+<img src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
+<img src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />  
+<img src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />
+<img src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" /> 
+  <img src="./app/src/assets/vite.png" alt="Vite" height="50" />
+  <img src="./app/src/assets/vitest.png" alt="Vitest" height="50" />
+<p style="font-size: 26px;">{Json-server}</p> 
+</div>
+
+<div align="">  
+<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="50" heigth="50"/>
+<img style="margin: 5px" src="https://profilinator.rishav.dev/skills-assets/figma-icon.svg" alt="Figma" height="50" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png" alt="VisualStudioCode" height="50" />
+<a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" /></a>  
+<img src="https://w7.pngwing.com/pngs/115/721/png-transparent-trello-social-icons-icon.png" alt="trello" width="50" heigth="50"/>
+ <img src="https://1000marcas.net/wp-content/uploads/2020/01/logo-Canva.png" alt="Canca" width="60" heigth="60"/>
+</div>
+
+
 
 
 
