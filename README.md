@@ -80,6 +80,10 @@ https://docs.docker.com/engine/reference/run/
 https://github.com/nuwe-reports/femhack-II-frontend-challenge/tree/main
 
 
+### VIDEOS
+https://www.youtube.com/watch?v=SnSH8Ht3MIc
+
+
 
 
 

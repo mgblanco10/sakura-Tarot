@@ -4,4 +4,4 @@ COPY . .
 RUN cd app/ && npm install
 WORKDIR /usr/src/app/app
 EXPOSE 3000
-CMD [ "npm", "run", "server" ]
+CMD ["npm", "run", "server"]
